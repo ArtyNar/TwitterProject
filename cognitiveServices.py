@@ -2,7 +2,7 @@ from azure.core.credentials import AzureKeyCredential
 from azure.ai.textanalytics import TextAnalyticsClient
 
 def cognitiveServices(tweet_data):
-    api_key='bb59020e2b4c4bf59f04d2380b221a1e' 
+    api_key='KEY_GOES_HERE' 
     api_endpoint = 'https://twitterproject.cognitiveservices.azure.com/'
     api_call = TextAnalyticsClient(endpoint=api_endpoint, credential=AzureKeyCredential(api_key))
 
